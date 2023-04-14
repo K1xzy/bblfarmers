@@ -18,6 +18,7 @@ return {
 		BackGround.Size = UDim2.new(1, 0, 1, 0)
 		BackGround.Parent = MonarchNoRender
 
+		local ImageAsset = getsynassetfromurl("https://i.imgur.com/etglK56.png")
 		local ImageLabel = Instance.new("ImageLabel")
 		ImageLabel.AnchorPoint = Vector2.new(0.5, 0.5)
 		ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
