@@ -63,7 +63,7 @@ return {
 		PlayerName.Parent = BackGround
 
 		local function updateImage()
-			ImageAsset = getsynassetfromurl("https://cataas.com/cat")
+			ImageAsset = getsynassetfromurl("https://cataas.com/cat?" .. tick())
 			ImageLabel.Image = ImageAsset
 		end
 
